@@ -1,0 +1,7 @@
+
+Autor: Gabriel de Souza Barreto
+GRR 20166812
+
+Foi implementada a AVL com um arquivo func.c para as funções necessárias e um arquivo func.h para os headers. Essa árvore AVL aceita duplicatas e foi testada com os 4 testes disponibilizados no site do professor Eduardo Almeida, funcionando corretamente para todos eles. É feito free() nos nodos assim que são apagados da árvore. A memória de todos os outros nodos restantes é liberada após o fim da execução do programa, não sendo necessário fazer o free() de todo o restante da árvore. Acompanha makefile.
+
+ 
